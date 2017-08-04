@@ -11,6 +11,8 @@
 /**************
     Globals
 ***************/
+$primary-color: #dbdbdb;
+$primary-darker: #444;
 
 html, body, main {
   height: 100%;
@@ -56,7 +58,7 @@ hr{
   height: 1px;
 }
 .title-lines {
-  background-color: #dbdbdb;
+  background-color: $primary-color;
   
   &:first-of-type {
     margin-bottom: 1.5rem;
@@ -72,11 +74,12 @@ hr{
     font-size: 1.5rem;
 }
 
-
 .scroll-button {
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
+  color: $primary-darker;
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  cursor: pointer;
 }
