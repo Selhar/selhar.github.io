@@ -16,12 +16,17 @@
   </head>
 
   <body>
-    <div id="main">
+    <main>
       {{ content }}
-    </div>
+    </main>
 
     <footer class="footer">
       {% include svg-icons.html %}
     </footer>
   </body>
+  {% for js in page.jsarr %}
+    <script type="text/javascript">
+        {% include {{ js }} %}
+    </script>
+  {% endfor %}
 </html>
