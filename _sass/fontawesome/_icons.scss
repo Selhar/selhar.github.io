@@ -1,0 +1,6 @@
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+.#{$fa-css-prefix}-free-code-camp:before { content: $fa-var-free-code-camp; }
+.#{$fa-css-prefix}-github:before { content: $fa-var-github; }
+.#{$fa-css-prefix}-codepen:before { content: $fa-var-codepen; }
