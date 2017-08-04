@@ -1,18 +1,18 @@
 ---
 ---
 
-@import "reset";
-@import "bulma/utilities/_all";
-@import "bulma/grid/columns";
-@import "fontawesome/font-awesome";
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,300,400,600');
+@import "reset";
+@import "fontawesome/font-awesome";
+
+@import "bulma/utilities/_all";
+@import "bulma/elements/title";
 
 /**************
     Globals
 ***************/
 
-html,
-body {
+html, body, main {
   height: 100%;
   margin: 0;
 }
@@ -33,3 +33,50 @@ body {
 /**************
     Splash
 ***************/
+
+#splash {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .splash-text {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+.title, .subtitle{
+  font-weight: 300;
+}
+.title.is-1 {
+  letter-spacing: 6px;
+}
+hr{
+  border: none;
+  height: 1px;
+}
+.title-lines {
+  background-color: #dbdbdb;
+  
+  &:first-of-type {
+    margin-bottom: 1.5rem;
+  }
+  &:last-of-type {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.subtitle.is-3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+
+.scroll-button {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
