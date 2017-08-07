@@ -59,4 +59,22 @@ hr{
   text-align: center;
   font-size: 2rem;
   cursor: pointer;
+
+
+  animation-duration: 1s;
+  animation-name: arrow;
+  animation-iteration-count:infinite;
+
+  @keyframes arrow {
+    0% {
+      bottom: 2rem;
+    } 
+    50% {
+      bottom: 1rem;
+    }
+
+    100% {
+      bottom: 2rem;
+    }
+  }
 }
