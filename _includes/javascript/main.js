@@ -1,6 +1,4 @@
-function cu(){
-	document.getElementById('portfolio').scrollIntoView({
-		behavior: 'smooth'
-	});
+function cu () {
+	const moveTo = new MoveTo();
+	moveTo.move(document.getElementById('portfolio'));
 }
-
