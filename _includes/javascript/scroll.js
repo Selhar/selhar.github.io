@@ -1,4 +1,7 @@
-// Source: https://github.com/hsnaydd/moveTo
+/* 
+	Source: https://github.com/hsnaydd/moveTo  
+*/
+
 
 const MoveTo = (() => {
   /**
