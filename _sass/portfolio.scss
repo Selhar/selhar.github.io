@@ -1,36 +1,56 @@
-#portfolio {
-  height: 100vh;
-  header {
+#showcase {
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  #portfolio header {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .node {
+    display: flex;
+    flex-direction: column;
+  }
+  .node-image {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    .image-title {
+      margin-bottom: 5px;
+    }
+  }
+  .node-text {
+    margin: 20px auto;
+  }
+}
+
+@media (min-width: 769px) {
+  #portfolio header {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+  }
+  .node {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .node-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    .image-title {
+      margin-bottom: 5px;
+    }
+  }
+  .node-text {
+    margin-top: 20px;
+    margin-left: 50px;
   }
 }
 
-#showcase {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
-.node {
-  width: 80vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
-.node-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  .image-title {
-    margin-bottom: 5px;
-  }
-}
-
-.node-text {
-  margin-top: 20px;
-  margin-left: 50px;
-}
