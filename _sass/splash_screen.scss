@@ -1,0 +1,62 @@
+
+#splash {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .splash-text {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+.title, .subtitle{
+  font-weight: 300;
+}
+.title.is-1 {
+  letter-spacing: 6px;
+}
+
+hr{
+  border: none;
+  height: 1px;
+}
+
+.title-lines {
+  background-color: $primary-color;
+ 
+  animation-duration: 2s;
+  animation-name: slide;
+  @keyframes slide {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  &:first-of-type {
+    margin-bottom: 1.5rem;
+  }
+  &:last-of-type {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+.subtitle.is-3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.scroll-button {
+  color: $primary-darker;
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  cursor: pointer;
+}

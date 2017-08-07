@@ -1,0 +1,17 @@
+html, body, main {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  padding-bottom: 20px;
+}
