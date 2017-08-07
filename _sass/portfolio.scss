@@ -1,3 +1,26 @@
 #portfolio {
   height: 100vh;
+  header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+}
+
+#showcase, .node {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.node-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.node-text {
+  margin-top: 20px;
+  margin-left: 50px;
 }
