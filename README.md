@@ -1,2 +1,2 @@
-## Selhar blog
-Just a personal blog
+## Personal website
+Heavily modified version of: https://github.com/barryclark/jekyll-now .
