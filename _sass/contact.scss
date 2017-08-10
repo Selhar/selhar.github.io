@@ -6,6 +6,11 @@
   height: 100px;
 }
 
+.field {
+  margin: 50px auto;
+  width: fit-content;
+}
+
 label{
   margin-top: 25px;
 }
@@ -34,9 +39,6 @@ label{
 }
 
 @media (min-width: 769px) {
-  .field {
-    margin: 50px auto;
-    width: fit-content;
-  }
+
 
 }
