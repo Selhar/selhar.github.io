@@ -2,13 +2,13 @@
 	<header>
 		<h1 class="title is-1 is-marginless">Contact</h1>
 	</header>
-	</br>
-	<p>Lemon drops ice cream pastry danish bonbon gummi bears cheesecake cotton candy. Oat cake toffee danish donut croissant jelly beans tart chupa chups. Cupcake chupa chups pie marshmallow apple pie tart.</p>
-	</br>
-	<form action="https://formspree.io/selhar@protonmail.com"
-      method="POST">
-    texto<input type="text" name="name">
-    email<input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form>
+	<form action="https://formspree.io/selhar@protonmail.com" method="POST" class="field" >
+		<label for="sender-name" class="label">Your name</label>
+			<input class="input" type="text" id="sender-name" name="name">
+		<label for="message" class="label">Message</label>
+			<textarea class="input" type="text" id="message" name="message"></textarea>
+		<label for="sender-email" class="label">Your e-mail</label>
+			<input type="email" name="_replyto" id="sender-email" class="input">
+    <input class="button input" type="submit" value="Send" id="send">
+	</form>
 </section>

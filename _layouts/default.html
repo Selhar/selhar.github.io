@@ -24,20 +24,7 @@
     <main>
       {{ content }}
     </main>
-
-    <footer class="footer">
-      <div class="footer-icons">
-		    <a class="button" href="https://github.com/selhar" target="_blank">
-		    	<span class="icon"><i class="icon-github"></i></span>
-        </a>
-		    <a class="button" href="http://codepen.io/Selhar/#" target="_blank">
-		    	<span class="icon"><i class="icon-codepen"></i></span>
-		    </a>
-		    <a class="button" href="https://forum.freecodecamp.org/u/GregoryGoncalves/activity" target="_blank">
-		    	<span class="icon"><i class="icon-free-code-camp"></i></span>
-		    </a>
-      </div>
-    </footer>
+    {% include footer.html %}
   </body>
   {% for js in page.jsarr %}
     <script type="text/javascript">
