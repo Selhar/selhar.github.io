@@ -3,7 +3,13 @@
 	width: fit-content;
 	font-size: 2em;
 	& a {
-		margin-left: 25px;
 		text-decoration: none;
+	}
+
+	& a:first-child {
+		margin-right: 25px;
+	}
+	& a:last-child {
+		margin-left: 25px;
 	}
 }
