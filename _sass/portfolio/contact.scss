@@ -1,7 +1,6 @@
 #contact{
   text-align: center;
   margin-bottom: 100px;
-  height: 70vh
 }
 #message{
   height: 100px;
@@ -38,9 +37,9 @@ label{
 }
 
 @media (max-width: 768px) {
+
 }
 
 @media (min-width: 769px) {
-
-
+  height: 70vh
 }
