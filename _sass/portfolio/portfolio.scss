@@ -1,6 +1,11 @@
 #showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 15px;
   margin-bottom: 50px;
+  height: 100vh;
 }
 
 .node {
@@ -42,7 +47,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .node {
+  .node, .projetos {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -59,11 +64,8 @@
     }
   }
   .node-text {
-    width: 850px;
+    width: 300px;
     margin-top: 35px;
     margin-left: 50px;
   }
 }
-
-
-
