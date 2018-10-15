@@ -10,10 +10,18 @@
 
 .node {
   margin-top: 50px;
+  display: block;
 }
 
 .node-image img {
   border-radius: 2px;
+}
+
+.node-text {
+  span{
+    line-height: 1.2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
 }
 
 @media (max-width: 768px) {
