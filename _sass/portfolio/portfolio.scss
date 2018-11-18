@@ -1,8 +1,8 @@
 #showcase {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   padding: 15px;
   margin-bottom: 50px;
   min-height: 100vh;
@@ -13,8 +13,11 @@
   display: block;
 }
 
-.node-image img {
-  border-radius: 2px;
+.node-image {
+  max-width: 270px;
+  img {
+    border-radius: 2px;
+  }
 }
 
 .node-text {
