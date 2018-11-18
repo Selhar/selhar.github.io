@@ -2,19 +2,25 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   padding: 15px;
   min-height: 100vh;
   max-width: 80vw;
   margin: 0 auto 50px auto;
 }
-
+.node-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
 .node {
   margin-top: 50px;
   display: block;
   .node-image {
     justify-content: flex-start;
-    width: 270px;
+    width: 256px;
     height: 370px;
     img {
       border-radius: 2px;
